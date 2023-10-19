@@ -24,6 +24,14 @@ const About = () => {
         `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${value}`
       );
       setCocktails(res.data.drinks);
+      //Comprobamos si la petición devolvio datos
+      if (!res.data.drinks) {
+        //Si la petición no devolvio datos, mostramos un mensaje de error
+        setError(true);
+      } else {
+        //Si la petición devolvio datos, seteamos los resultados en el array de cocktails
+        setCocktails(res.data.drinks);
+      }
       
     } catch (error) {
       //Si la petición arroja algun tipo de error, lo que hacemos es setear error en true
@@ -68,8 +76,8 @@ const About = () => {
           ))}
         </section>
       )}
-
     </main>
+    
   );
 };
 
