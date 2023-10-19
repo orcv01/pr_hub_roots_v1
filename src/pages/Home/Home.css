@@ -1,0 +1,14 @@
+.home {
+    display: grid;
+    place-items: center;
+}
+
+.intro p {
+    text-align: center;
+    
+}
+
+.borra {
+    width: 15%;
+    height: 15%;
+}
