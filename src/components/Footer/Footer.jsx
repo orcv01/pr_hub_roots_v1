@@ -3,7 +3,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>Email: thedatadb@gmail.com (please state if you are a Patreon Supporter</p>
+      <p>Copyright © 2023, The Data DB. Todos los derechos reservados.</p>
+      <p>Email: thedatadb@gmail.com Please state if you are a Patreon Supporter</p>
+      
     </footer>
   );
 };

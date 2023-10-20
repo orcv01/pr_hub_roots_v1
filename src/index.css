@@ -16,6 +16,7 @@
 
 a {
     font-weight: 500;
+    font-size: large;
     color: #646cff;
     text-decoration: none;
     text-decoration: inherit;
@@ -26,11 +27,10 @@ a:hover {
 }
 
 body {
-    margin: 0;
+   
     display: flex;
     place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+   
 }
 
 h1 {

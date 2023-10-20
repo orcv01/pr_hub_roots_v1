@@ -62,8 +62,8 @@ const checkWinner = (grid, turn) => {
 };
 
   const table = (
-    <table>
-      <tbody>
+    <table className="grid">
+      <tbody >
         {grid.map((row, i) => (
           <tr key={i}>
             {row.map((cell, j) => (
@@ -83,10 +83,11 @@ const checkWinner = (grid, turn) => {
         ))}
       </tbody>
     </table>
+    
   );
 
   return (
-    <div>
+    <div className='cuadro'>
       <h1>Tres en raya</h1>
       {table}
       <h2>Jugador actual: {turn}</h2>

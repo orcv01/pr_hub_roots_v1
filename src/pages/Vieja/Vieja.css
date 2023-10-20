@@ -1,6 +1,15 @@
+.cuadro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .cell {
