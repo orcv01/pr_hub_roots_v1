@@ -1,5 +1,5 @@
-//El componente Vieja es un componente del juego tres en raya. 
-//El componente tiene tres estados (grid, turn, winner) 
+//Juego tres en raya. 
+//Tres estados (grid, turn, winner) 
 //Dos funciones. handleClick(), checkWinner().
 //Renderiza una tabla con tres filas y tres columnas.
 
