@@ -15,8 +15,8 @@
 .cell {
   width: 100px;
   height: 100px;
-  border: 1px solid black;
-  background-color: rgb(227, 220, 234);
+  border: 2px solid rgb(246, 223, 223);
+  background-color: rgb(29, 1, 56);
   
 }
 

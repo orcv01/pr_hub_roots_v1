@@ -29,6 +29,7 @@ const Vieja = () => {
 
   if (isWinner) {
     setWinner(turn);
+    
   } else if (grid.every(row => row.every(cell => cell !== ""))) {
     setWinner("Empate");
   }
